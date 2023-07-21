@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+    <style>
+        html,
+        body {
+            margin: 0;
+            height: 100%;
+            background-color: rgb(242, 241, 247);
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <!-- NAVBAR -->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="https://bulma.io">
+                <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item">
+                    Home
+                </a>
+
+                <a class="navbar-item">
+                    Documentation
+                </a>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        More
+                    </a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                            About
+                        </a>
+                        <a class="navbar-item">
+                            Jobs
+                        </a>
+                        <a class="navbar-item">
+                            Contact
+                        </a>
+                        <hr class="navbar-divider">
+                        <a class="navbar-item">
+                            Report an issue
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-primary">
+                            <strong>Sign up</strong>
+                        </a>
+                        <a class="button is-light">
+                            Log in
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="card m-5">
+        <header class="card-header">
+            <p class="card-header-title">
+                USERS LIST
+            </p>
+            <button class="card-header-icon" aria-label="more options">
+                <span class="icon">
+                    <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </span>
+            </button>
+        </header>
+        <div class="card-content">
+            <div class="content">
+                <table class="table">
+                    <thead>
+                        <tr style="background-color: rgb(227, 226, 233);">
+                            <th><abbr title="Position">#</abbr></th>
+                            <th>Name</th>
+                            <th><abbr title="Played">Email</abbr></th>
+                            <th><abbr title="Won">tags</abbr></th>
+                            <th><abbr title="Drawn">Projects</abbr></th>
+                            <th><abbr title="Lost">Action</abbr></th>
+                        </tr>
+                    </thead>
+                    <!-- <tfoot>
+                    <tr>
+                        <th><abbr title="Position">#</abbr></th>
+                        <th>Name</th>
+                        <th><abbr title="Played">Email</abbr></th>
+                        <th><abbr title="Won">tags</abbr></th>
+                        <th><abbr title="Drawn">Projects</abbr></th>
+                        <th><abbr title="Lost">Action</abbr></th>
+                   
+                    </tr>
+                    </tfoot> -->
+                    <tbody>
+                        <tr>
+                            <th>
+                                <!-- <div><span><figure class="image is-128x128">
+                        <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
+                      </figure></span></div> -->
+                            </th>
+                            <td>David McHenry
+
+                            </td>
+                            <td>david@gmail.com</td>
+                            <td><span class="tag is-link is-light">Photoshop</span>
+                                <!-- <span class="tag is-link is-light">illustrator</span> -->
+                            </td>
+                            <td>12</td>
+                            <td>3</td>
+
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td>Frank Kirk</td>
+                            <td>frankk@gmail.com</td>
+                            <td><span class="tag is-warning is-light">html</span>
+                                <span class="tag is-link is-light">php</span>
+                            </td>
+                            <td><i class="far fa-comment-alt"></i>
+                                <i class="fa-regular fa-user"></i>
+                            </td>
+                            <td>7</td>
+
+                        </tr>
+
+                        <tr>
+                            <th>8</th>
+                            <td>Mark Kirk</td>
+                            <td>mark@gmail.com</td>
+                            <td><span class="tag is-success is-light ">php</span>
+
+
+                            </td>
+                            <td>12</td>
+                            <td>10</td>
+                        </tr>
+
+                        <tr>
+                            <th>1</th>
+                            <td>David McHenry
+
+                            </td>
+                            <td>david@gmail.com</td>
+                            <td><span class="tag is-link is-light">Photoshop</span>
+                                <!-- <span class="tag is-link is-light">illustrator</span> -->
+                            </td>
+                            <td>12</td>
+                            <td>3</td>
+
+                        </tr>
+
+
+                        <tr>
+                            <th>1</th>
+                            <td>David McHenry
+
+                            </td>
+                            <td>david@gmail.com</td>
+                            <td><span class="tag is-link is-light">Photoshop</span>
+                                <!-- <span class="tag is-link is-light">illustrator</span> -->
+                            </td>
+                            <td>12</td>
+                            <td>3</td>
+
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td>David McHenry
+
+                            </td>
+                            <td>david@gmail.com</td>
+                            <td><span class="tag is-link is-light">Photoshop</span>
+                                <!-- <span class="tag is-link is-light">illustrator</span> -->
+                            </td>
+                            <td>12</td>
+                            <td>3</td>
+
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td>David McHenry
+
+                            </td>
+                            <td>david@gmail.com</td>
+                            <td><span class="tag is-link is-light">Photoshop</span>
+                                <!-- <span class="tag is-link is-light">illustrator</span> -->
+                            </td>
+                            <td>12</td>
+                            <td>3</td>
+
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <footer class="card-footer">
+            <nav class="pagination is-rounded is-small m-2" role="navigation" aria-label="pagination">
+                <a class="pagination-previous">Previous</a>
+                <a class="pagination-next">Next page</a>
+                <ul class="pagination-list">
+                    <li><a class="pagination-link" aria-label="Goto page 1">1</a></li>
+                    <li><span class="pagination-ellipsis">&hellip;</span></li>
+                    <li><a class="pagination-link" aria-label="Goto page 45">45</a></li>
+                    <li><a class="pagination-link is-current" aria-label="Page 46" aria-current="page">46</a></li>
+                    <li><a class="pagination-link" aria-label="Goto page 47">47</a></li>
+                    <li><span class="pagination-ellipsis">&hellip;</span></li>
+                    <li><a class="pagination-link" aria-label="Goto page 86">86</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+
+</body>
+
+</html>
